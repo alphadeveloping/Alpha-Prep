@@ -274,10 +274,4 @@ En esta lección aprendimos qué son los Objetos y las muchas formas que existen
 - [MDN: this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
 - [MDN: for...in Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in)
 
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/05-JS-IV/homework)
-
----
-
 #### Si tienes dudas sobre este tema, puedes consultarlas!!

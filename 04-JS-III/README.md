@@ -128,10 +128,4 @@ for (let i = 0; i < nombresEstudiantes.length; i++) {
 - [MDN: Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [MDN: for Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
 
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/04-JS-III/homework)
-
----
-
 #### Si tienes dudas sobre este tema, puedes consultarlas!!

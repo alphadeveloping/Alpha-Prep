@@ -7,7 +7,7 @@ En esta clase veremos:
 - Introducción a HTML.
 - Elementos/tags HTML básicos.
 - Introducción a CSS.
-- Selectores CSS y el tag \<style\> .
+- Selectores CSS y el tag \<style\>.
 - Estilos Básicos.
 - Modelo de Caja.
 - Hojas de estilos externas y el tag \<link\>.
@@ -99,7 +99,7 @@ El elemento div es un _contenedor_ genérico. Es usado principalmente para dar e
 El tag a (del inglés _anchor_), nos permite crear **links** a otros documentos y páginas. Este tag recibe el _atributo_ `href` que indica a dónde apunta el link.
 
 ```html
-<a href="http://www.soyhenry.com">Esto es un link!</a>
+<a href="http://www.google.com.ar">Esto es un link!</a>
 ```
 
 #### **_\<h1> ... \<h6>_**
@@ -117,7 +117,7 @@ Son los tags de encabezado o títulos, están pensandos del 1 al 6, para indicar
 Este tag nos permite mostrar imágenes en la pantalla. Necesita el atributo `src` que indica la _URL_ de donde sacar la imagen a mostrar.
 
 ```html
-<img src="http://www.soyhenry.com/imageurl.jpg" />
+<img src="https://pm1.narvii.com/6133/84ceb5f5e9ea40db447be75366b2bdfa29522d56_hq.jpg" />
 ```
 
 #### **_\<ul>_**

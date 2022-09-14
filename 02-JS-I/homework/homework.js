@@ -176,21 +176,6 @@ function esVocal(letra) {
 	//Escribe tu código aquí
 }
 
-// Ejercicio para Noobs
-function oppositesAttract(florUno, florDos) {
-	// Los opuestos se atraen
-	// Timmy y Sarah creen que están enamorados, pero en el lugar donde viven, solo lo sabrán una vez que
-	// recojan una flor cada uno. Si una de las flores tiene un número par de pétalos y
-	// la otra tiene un número impar de pétalos, significa que están enamorados.
-	// Escribe una función que tome el número de pétalos de cada flor y, devuelva verdadero
-	// si están enamorados o falso si no lo están.
-	// Escribe tu código aquí
-	if (florUno % 2 == 0 && florDos % 2 != 0) {
-		return true;
-	}
-	return false;
-}
-
 // No modificar nada debajo de esta línea
 // --------------------------------
 

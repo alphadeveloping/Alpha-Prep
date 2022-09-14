@@ -10,7 +10,6 @@ En esta lección cubriremos:
 - Math
 - Introducción a las Funciones
 - Control de flujo y operadores de comparación
-- Introducción a Node y NPM
 
 JavaScript es un lenguaje de programación que fue creado originalmente para ser usado en el front-end de una pǻgina web. La idea original era poder dar dinamismo a las páginas webs, que en un principio eran estáticas. La introducción del "motor V8" de Google ha mejorado la velocidad y el funcionamiento de JS. Haciendo que JS (javascript) sea la lengua franca de la web, llegando inclusive al Back-End a través de NodeJs.
 
@@ -318,10 +317,5 @@ El símbolo "mayor que" (`>`) que ve en el último ejemplo se llama _Operador de
 - [Udacity: Intro to Javascript](https://www.udacity.com/course/intro-to-javascript--ud803)
 - [MDN: Official Javascript Documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/alphadeveloping/Alpha-Prep-Completed/tree/main/02-JS-I/homework)
-
----
 
 #### Si tienes dudas sobre este tema, puedes consultarlas!!

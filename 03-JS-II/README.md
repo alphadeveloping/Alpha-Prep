@@ -2,14 +2,14 @@
 
 #### Flujos de control, operadores lógicos, bucles **_for_**
 
-<!-- En esta lección cubriremos:
+En esta lección cubriremos:
 
 * `Undefined` y `null`
 * Operadores de comparación (continuación)
 * Flujos de control (continuación)
 * Operados lógicos
 * Bucles `for`
-* `arguments` -->
+* `arguments`
 
 ## Undefined y null
 
@@ -285,11 +285,5 @@ Te invitamos a buscar en Google información de estos conceptos para poder desar
 - [MDN: Control Flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 - [MDN: Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
 - [MDN: for Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for)
-
-## Homework
-
-Abre la carpeta "homework" y completa la tarea descripta en el archivo [README](../03-JS-II/homework/README.md)
-
----
 
 #### Si tienes dudas sobre este tema, puedes consultarlas!!

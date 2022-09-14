@@ -46,7 +46,7 @@ Dentro de nuestra terminal podemos: revisar nuestra estructura de archivos, aña
 
 En este ejercicio crearemos un nuevo repositorio en Github y a partir de la linea de comandos crearemos un nuevo archivo y lo agregaremos a nuestro nuevo repositorio.
 
-Iniciaremos creando una carpeta desde la consola llamada: "CarpetaAlpha"
+Iniciaremos creando una carpeta desde la consola llamada: "alpha-prep"
 
 Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
 
@@ -57,7 +57,7 @@ Para ello primero iremos a la carpeta de nivel superior, escribe en la consola:
 y presiona Enter. Una vez estés en el nivel superior, escribe:
 
 ```bash
-  mkdir CarpetaAlpha
+  mkdir alpha-prep
 ```
 
 y presiona Enter. ¡Felicitaciones, has creado un directorio!
@@ -88,7 +88,7 @@ Una vez tengas la dirección copiada, abre una terminal nueva y escribe lo sigui
 ```bash
   $ cd ~
 
-  $ cd CarpetaAlpha
+  $ cd alpha-prep
 
   $ git clone [dirección copiada]
 ```
@@ -104,7 +104,7 @@ En este ejercicio, añadiremos un archivo a nuestro proyecto y crearemos un comm
 A continuación, escribe lo siguiente en tu terminal:
 
 ```bash
-  $ cd repositorio-Alpha
+  $ cd alpha-prep
   
   $ touch archivo-ejemplo.js
 ```
@@ -164,7 +164,7 @@ La terminal te preguntará tu usuario y contraseña (En el caso de la contraseñ
   Writing objects: 100% (5/5), 2.97 KiB | 0 bytes/s, done.
   Total 5 (delta 1), reused 0 (delta 0)
   remote: Resolving deltas: 100% (1/1), completed with 1 local object.
-  To git@github.com:[your username]/Precourse.git
+  To git@github.com:[your username]/alpha-prep.git
     cccc682..283b9dd  master -> master
 ```
 

@@ -53,10 +53,10 @@ Usuario.prototype.introduccion = function () {
 };
 
 let juan = new Usuario("Juan", "juan.perez");
-let antonio = new Usuario("Antonio", "atralice");
+let pepito = new Usuario("Pepe", "pepito.diaz");
 
-console.log(juan.introduccion()); // Mi nombre es Juan, mi usuario de Github es juan.perez.
-console.log(antonio.introduccion()); // Mi nombre es Antonio, mi usuario de Github es atralice.
+console.log(juan.introduccion()); // Mi nombre es Juan, mi usuario de Github es juan.perez
+console.log(pepito.introduccion()); // Mi nombre es Pepe, mi usuario de Github es pepito.diaz
 ```
 
 Los métodos de `prototype` tienen acceso a la palabra clave `this` y, al igual que antes, siempre apuntará al objeto (a la izquierda del punto) que lo está llamando.
@@ -88,7 +88,7 @@ El método `assign` de los objetos te permite agregar propiedades a un objeto pa
 > var obj = {}
 
 // No hace falta guardar el resultado porque los objetos se pasan por `referencia`
-> Object.assign(obj, {nombre:'Emi', apellido:'Chequer'})
+> Object.assign(obj, {nombre:'Emi', edad: 21})
 
 > obj.nombre
 < 'Emi'
@@ -111,9 +111,9 @@ Cuando generamos un arreglo nuevo podemos acceder a métodos como `map` o `slice
 Nosotros también podemos generar nuestros propios constructores que de los cuales heredar. Creemos un constructor de el cual pueda haber variantes.
 
 ```javascript
-> function Persona(nombre,apellido,ciudad) {
+> function Persona(nombre,edad,ciudad) {
     this.nombre = nombre;
-    this.apellido = apellido;
+    this.edad = edad;
     this.ciudad = ciudad;
   }
 
@@ -121,19 +121,19 @@ Nosotros también podemos generar nuestros propios constructores que de los cual
     console.log('Soy '+this.nombre+' de '+this.ciudad);
   }
 
-> var Emi = new Persona('Emi', 'Chequer', 'Buenos Aires');
+> var Emi = new Persona('Emi', 35, 'San Luis');
 
 > Emi.saludar()
-< 'Soy Emi de Buenos Aires'
+< 'Soy Emi de San Luis'
 ```
 
-Ahora todo Alumno de Henry antes de Alumno es una Persona, asique podríamos decir que un Alumno hereda las propiedades de ser Persona.
+Ahora todo Alumno de Alpha Developing antes de Alumno es una Persona, asique podríamos decir que un Alumno hereda las propiedades de ser Persona.
 
 ```javascript
-> function Alumno(nombre,apellido,ciudad,curso) {
+> function Alumno(nombre,edad,ciudad,curso) {
     // podría copiar las mismas propiedades de Persona acá adentro
     this.nombre = nombre;
-    this.apellido = apellido;
+    this.edad = edad;
     this.ciudad = ciudad;
     this.curso = curso
   }
@@ -146,28 +146,28 @@ Descartemos esta opción.
 
 ```javascript
 // lo que nosotros queremos es poder reutilizar las propiedades de persona,
-> function Alumno(nombre, apellido, ciudad, curso) {
+> function Alumno(nombre, edad, ciudad, curso) {
     // usemos nuestro constructor Persona dentro del de Alumno
-    Persona.call(this, nombre, apellido, ciudad);
+    Persona.call(this, nombre, edad, ciudad);
     // vamos a necesitar el call porque queremos que las propiedades de persona, queden en bajo el objeto que va a devolver Alumno, y no uno nuevo del constructor Persona.
     // luego le paso los valores que quiero que reciba el constructor de Alumno
 
     // finalmente le agrego los puntos propios de Alumno
     this.curso = curso;
-    this.empresa = 'Soy Henry';
+    this.empresa = 'Alpha Developing';
   }
 
-> var toni = new Alumno('Toni', 'Tralice', 'Tucuman', 'Web Full Stack')
+> var lucas = new Alumno('Lucas', 25, 'San Luis', 'Web Full Stack')
 
 // Ahora si tenemos nuestra instancia creada a partir de ambos constructores
-> toni.curso
+> lucas.curso
 < Web Full Stack
 
-> toni.apellido
-< Tralice
+> lucas.edad
+< 25
 
-> toni.saludar()
-< Uncaught TypeError: toni.saludar is not a 'function'
+> lucas.saludar()
+< Uncaught TypeError: lucas.saludar is not a 'function'
 // que paso?
 ```
 
@@ -194,11 +194,5 @@ Vamos a solucionar ese problema agregando al prototipo los métodos de Persona, 
 
 - [MDN: Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [MDN: Prototype](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype)
-
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/06-JS-V/homework)
-
----
 
 #### Si tienes dudas sobre este tema, puedes consultarlas!!

@@ -115,10 +115,4 @@ console.log(triple); // [ 6, 9, 12, 15 ]
 - [MDN: Callback function](https://developer.mozilla.org/en-US/docs/Glossary/Callback_function)
 - [MDN: Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-## Homework
-
-Completa la tarea descrita en el archivo [README](https://github.com/soyHenry/Prep-Course/tree/main/07-JS-VI/homework)
-
----
-
 #### Si tienes dudas sobre este tema, puedes consultarlas!!
